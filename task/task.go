@@ -1,6 +1,5 @@
 package task
 
-// login -> title -> Task
 var Tasks = make(map[string]map[string]Task)
 
 type Task struct {
